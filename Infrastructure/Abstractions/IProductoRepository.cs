@@ -12,5 +12,10 @@ namespace ecspage.Infrastructure.Abstractions
         List<(int Id, string Nombre, decimal Precio, int Stock)> ListarActivos();
         (int Id, string Nombre, decimal Precio, int Stock)? Obtener(int id);
         void DescontarStock(int productoId, int cantidad, DbTransaction tx);
+
+        // Nuevos cambios para gestionar productos
+        void Insertar(string nombre, decimal precio, int stock, out int nuevoId);
+        void Actualizar(int idProducto, string nombre, decimal precio, int stock, bool activo);
+        void Eliminar(int idProducto);
     }
 }
