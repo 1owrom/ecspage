@@ -343,6 +343,19 @@ namespace ecspage
             // Bloquea edición en Precio
             if (dgvItems.Columns[e.ColumnIndex].Name == "colPrecio")
                 e.Cancel = true;
+            // 2) Bloquea volver a abrir el combo de Producto
+            if (dgvItems.Columns[e.ColumnIndex].Name == "colProducto")
+            {
+                if (e.RowIndex >= 0 && e.RowIndex < _items.Count)
+                {
+                    var item = _items[e.RowIndex];
+                    // Si ya tiene producto seleccionado, no permitimos re-editar
+                    if (item.ProductoId.HasValue)
+                    {
+                        e.Cancel = true;
+                    }
+                }
+            }
         }
 
         private void CargarProductos()
