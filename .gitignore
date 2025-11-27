@@ -1,6 +1,10 @@
+bin/
+obj/
 .vs/
 *.suo
 *.user
 *.cache
 *.vsidx
 *.sqlite
+*.pdb
+*.dll

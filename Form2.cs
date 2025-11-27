@@ -9,7 +9,7 @@ using ecspage.Infrastructure.Abstractions;
 
 namespace ecspage
 {
-    public partial class FormListadoFacturas : Form
+    public partial class FormListadoFacturas : System.Windows.Forms.Form
     {
         private readonly FormNuevaFactura _formMain; // puede ser null si se abre standalone
 

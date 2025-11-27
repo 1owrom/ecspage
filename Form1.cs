@@ -11,7 +11,7 @@ using ecspage.Infrastructure.Abstractions;
 
 namespace ecspage
 {
-    public partial class FormNuevaFactura : Form
+    public partial class FormNuevaFactura : System.Windows.Forms.Form
     {
         // ========= MODELO PARA EL GRID =========
         private sealed class ItemFactura
@@ -647,7 +647,7 @@ namespace ecspage
             try
             {
                 // Descarta cualquier Form embebido (por si quedó en el panel)
-                foreach (Control c in panelMain.Controls.OfType<Form>().ToList())
+                foreach (Control c in panelMain.Controls.OfType<FormRegistrarProductos>().ToList())
                     c.Dispose();
 
                 panelMain.SuspendLayout();
@@ -672,5 +672,21 @@ namespace ecspage
                     "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+        //Nuevo cambio: Agregar productos en nuevo formulario
+        private void btnAgregarProducto_Click(object sender, EventArgs e)
+        {
+            using (var frm = new FormRegistrarProductos())
+            {
+                frm.StartPosition = FormStartPosition.CenterParent;
+                frm.ShowDialog(this);
+            }
+        }
+
+        // Nuevo cambio: método público para actualizar productos
+        public void RefrescarProductosEnFactura()
+        {
+            CargarProductos();
+        }
+
     }
 }
