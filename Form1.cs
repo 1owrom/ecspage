@@ -13,7 +13,7 @@ namespace ecspage
 {
     public partial class FormNuevaFactura : Form
     {
-        // ========= MODELO PARA EL GRID =========
+        // ========= MODELO PARA EL GRID =========cambio de prueba
         private sealed class ItemFactura
         {
             public int? ProductoId { get; set; }
