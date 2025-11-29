@@ -688,5 +688,9 @@ namespace ecspage
             CargarProductos();
         }
 
+        private void gbFactura_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

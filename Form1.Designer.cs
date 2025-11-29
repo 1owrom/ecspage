@@ -264,6 +264,7 @@
             gbFactura.Size = new Size(353, 636);
             gbFactura.TabIndex = 3;
             gbFactura.TabStop = false;
+            gbFactura.Enter += gbFactura_Enter;
             // 
             // label11
             // 

@@ -44,7 +44,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(275, 31);
+            label1.Location = new Point(296, 31);
             label1.Name = "label1";
             label1.Size = new Size(137, 46);
             label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(213, 114);
+            label2.Location = new Point(234, 114);
             label2.Name = "label2";
             label2.Size = new Size(72, 22);
             label2.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold);
-            label3.Location = new Point(184, 171);
+            label3.Location = new Point(205, 171);
             label3.Name = "label3";
             label3.Size = new Size(101, 22);
             label3.TabIndex = 2;
@@ -73,14 +73,14 @@
             // 
             // textBoxUsuario
             // 
-            textBoxUsuario.Location = new Point(312, 116);
+            textBoxUsuario.Location = new Point(333, 116);
             textBoxUsuario.Name = "textBoxUsuario";
             textBoxUsuario.Size = new Size(100, 23);
             textBoxUsuario.TabIndex = 3;
             // 
             // textBoxContrasena
             // 
-            textBoxContrasena.Location = new Point(312, 173);
+            textBoxContrasena.Location = new Point(333, 173);
             textBoxContrasena.Name = "textBoxContrasena";
             textBoxContrasena.Size = new Size(100, 23);
             textBoxContrasena.TabIndex = 4;
@@ -94,6 +94,7 @@
             btnIniciarSesion.TabIndex = 5;
             btnIniciarSesion.Text = "Iniciar Sesión";
             btnIniciarSesion.UseVisualStyleBackColor = true;
+            btnIniciarSesion.Click += btnIniciarSesion_Click;
             // 
             // btnSalir
             // 
