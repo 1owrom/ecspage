@@ -141,8 +141,10 @@ namespace ecspage
             btnGuardar.Size = new Size(150, 35);
             btnGuardar.TabIndex = 9;
             btnGuardar.Text = "Guardar";
+
             btnGuardar.UseVisualStyleBackColor = true;
             btnGuardar.Click += btnGuardar_Click;
+
 
             // 
             // FormAgregarCliente
