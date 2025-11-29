@@ -55,15 +55,6 @@ namespace ecspage.Application.Contracts
         public string? Email { get; set; }
         public string? Direccion { get; set; }
     }
-    // Registrar producto (Datos)
-    public class ProductoDto
-    {
-        public int Id { get; set; }
-        public string Nombre { get; set; } = "";
-        public decimal PrecioUnitario { get; set; }
-        public int Stock { get; set; }
-        public bool Activo { get; set; }
-    }
 
 
 }

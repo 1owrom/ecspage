@@ -1,0 +1,433 @@
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ecspage.exe
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ecspage.deps.json
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ecspage.runtimeconfig.json
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ecspage.pdb
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.GenerateResource.cache
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.AssemblyInfoInputs.cache
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.AssemblyInfo.cs
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.CoreCompileInputs.cache
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\refint\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.pdb
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.genruntimeconfig.cache
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ref\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.FormNuevaFactura.resources
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.FormListadoFacturas.resources
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.FormDetallesFactura.resources
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.AssemblyReference.cache
+D:\Escritorio nuevo\VISUAL\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.Up2Date
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\refint\ecspage.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.pdb
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ecspage.exe
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ecspage.deps.json
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ecspage.runtimeconfig.json
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ecspage.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ecspage.pdb
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.AssemblyReference.cache
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.FormNuevaFactura.resources
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.FormListadoFacturas.resources
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.FormDetallesFactura.resources
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.FormAgregarCliente.resources
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.GenerateResource.cache
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.AssemblyInfoInputs.cache
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.AssemblyInfo.cs
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.CoreCompileInputs.cache
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.csproj.Up2Date
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ecspage.genruntimeconfig.cache
+C:\Users\RAUL\Desktop\CURSOS 2025\EVOLUCION Y CONFIGURACION DEL SOFTWARE\ecspage\ecspage\obj\Debug\net8.0-windows\ref\ecspage.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ecspage.exe
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ecspage.deps.json
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ecspage.runtimeconfig.json
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ecspage.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ecspage.pdb
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.FormNuevaFactura.resources
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.FormListadoFacturas.resources
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.FormDetallesFactura.resources
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.FormAgregarCliente.resources
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.GenerateResource.cache
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.AssemblyInfoInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.AssemblyInfo.cs
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.Up2Date
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\refint\ecspage.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.pdb
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ecspage.genruntimeconfig.cache
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\obj\Debug\net8.0-windows\ref\ecspage.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\Usuario\OneDrive\Escritorio\ecspa2\bin\Debug\net8.0-windows\itextsharp.xmlworker.dll
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.dll
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\refint\ecspage.dll
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.pdb
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ecspage.exe
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ecspage.deps.json
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ecspage.runtimeconfig.json
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ecspage.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ecspage.pdb
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\itextsharp.xmlworker.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\Desktop\ecspa2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.FormNuevaFactura.resources
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.FormListadoFacturas.resources
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.FormDetallesFactura.resources
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.FormAgregarCliente.resources
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.csproj.Up2Date
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ecspage.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\ecspa2\obj\Debug\net8.0-windows\ref\ecspage.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ecspage.exe
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ecspage.deps.json
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ecspage.runtimeconfig.json
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ecspage.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ecspage.pdb
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\itextsharp.xmlworker.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\Usuario\Downloads\ecspa2_2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.FormNuevaFactura.resources
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.FormListadoFacturas.resources
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.FormDetallesFactura.resources
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.AssemblyInfoInputs.cache
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.AssemblyInfo.cs
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.csproj.Up2Date
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.dll
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\refint\ecspage.dll
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.pdb
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ecspage.genruntimeconfig.cache
+C:\Users\Usuario\Downloads\ecspa2_2\obj\Debug\net8.0-windows\ref\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ecspage.exe
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ecspage.deps.json
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ecspage.runtimeconfig.json
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ecspage.pdb
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Azure.Core.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Azure.Identity.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\itextsharp.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\itextsharp.xmlworker.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Bcl.Cryptography.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.ClientModel.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.Configuration.ConfigurationManager.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.Diagnostics.EventLog.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.Memory.Data.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.Security.Cryptography.ProtectedData.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.csproj.AssemblyReference.cache
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.FormNuevaFactura.resources
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.FormListadoFacturas.resources
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.FormDetallesFactura.resources
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.csproj.GenerateResource.cache
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.AssemblyInfoInputs.cache
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.AssemblyInfo.cs
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.csproj.CoreCompileInputs.cache
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.csproj.Up2Date
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\refint\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.pdb
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ecspage.genruntimeconfig.cache
+D:\Escritorio nuevo\VISUAL\ecspage_v2\obj\Debug\net8.0-windows\ref\ecspage.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\itextsharp.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\itextsharp.xmlworker.dll
+D:\Escritorio nuevo\VISUAL\ecspage\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
