@@ -45,7 +45,7 @@ namespace ecspage
 
             AppHost.Init(services.BuildServiceProvider());
 
-            WinFormsApp.Run(new Form5());
+            WinFormsApp.Run(new FormNuevaFactura());
         }
     }
 }

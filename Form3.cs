@@ -8,7 +8,7 @@ using ecspage.Application.Contracts;
 
 namespace ecspage
 {
-    public partial class FormDetallesFactura : System.Windows.Forms.Form
+    public partial class FormDetallesFactura : Form
     {
         private readonly int _idFactura;
         private IFacturaService _facturas;
