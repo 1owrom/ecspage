@@ -84,6 +84,7 @@
             textBoxContrasena.Name = "textBoxContrasena";
             textBoxContrasena.Size = new Size(100, 23);
             textBoxContrasena.TabIndex = 4;
+            textBoxContrasena.UseSystemPasswordChar = true;
             // 
             // btnIniciarSesion
             // 

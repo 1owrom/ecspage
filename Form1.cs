@@ -692,5 +692,12 @@ namespace ecspage
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form5 login = new Form5();
+            login.Show();
+            this.Close();   // Cierra esta ventana
+        }
     }
 }
