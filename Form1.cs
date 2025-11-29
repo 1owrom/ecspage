@@ -46,7 +46,7 @@ namespace ecspage
             Load += FormNuevaFactura_Load;
         }
 
-        // ================================== LOAD ==================================
+        // ================================== LOAD ==================================  //prueba
         private void FormNuevaFactura_Load(object sender, EventArgs e)
         {
             try
