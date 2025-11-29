@@ -44,13 +44,18 @@ namespace ecspage
 
             var resultado = _authService.Login(usuario, contrasena);
 
-            if(resultado == null) 
+            if (resultado == null)
             {
                 MessageBox.Show("Usuario o contraseña incorrectos");
                 return;
             }
 
-            MessageBox.Show("Inicio de sesión exitoso");          
+            MessageBox.Show("Inicio de sesión exitoso");
+
+            FormNuevaFactura f = new FormNuevaFactura();
+            f.Show();
+
+            this.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -61,6 +66,19 @@ namespace ecspage
         private void Form5_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("¿Deseas salir de la aplicación?",
+                "Confirmación",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                System.Windows.Forms.Application.Exit();
+            }
         }
     }
 }
