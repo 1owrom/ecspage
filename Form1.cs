@@ -11,7 +11,7 @@ using ecspage.Infrastructure.Abstractions;
 
 namespace ecspage
 {
-    public partial class FormNuevaFactura : Form
+    public partial class FormNuevaFactura : System.Windows.Forms.Form
     {
         // ========= MODELO PARA EL GRID =========cambio de prueba
         private sealed class ItemFactura
@@ -91,6 +91,7 @@ namespace ecspage
             // Estados
             cmbEstado.Items.Clear();
             cmbEstado.Items.AddRange(new object[] { "Pendiente", "Pagada" });
+            cmbEstado.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbEstado.SelectedIndex = 0;
 
             // Fecha
@@ -342,6 +343,19 @@ namespace ecspage
             // Bloquea edición en Precio
             if (dgvItems.Columns[e.ColumnIndex].Name == "colPrecio")
                 e.Cancel = true;
+            // 2) Bloquea volver a abrir el combo de Producto
+            if (dgvItems.Columns[e.ColumnIndex].Name == "colProducto")
+            {
+                if (e.RowIndex >= 0 && e.RowIndex < _items.Count)
+                {
+                    var item = _items[e.RowIndex];
+                    // Si ya tiene producto seleccionado, no permitimos re-editar
+                    if (item.ProductoId.HasValue)
+                    {
+                        e.Cancel = true;
+                    }
+                }
+            }
         }
 
         private void CargarProductos()
@@ -633,7 +647,7 @@ namespace ecspage
             try
             {
                 // Descarta cualquier Form embebido (por si quedó en el panel)
-                foreach (Control c in panelMain.Controls.OfType<Form>().ToList())
+                foreach (Control c in panelMain.Controls.OfType<FormRegistrarProductos>().ToList())
                     c.Dispose();
 
                 panelMain.SuspendLayout();
@@ -657,6 +671,33 @@ namespace ecspage
                 MessageBox.Show("No se pudo restaurar la vista principal:\n" + ex.Message,
                     "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+        //Nuevo cambio: Agregar productos en nuevo formulario
+        private void btnAgregarProducto_Click(object sender, EventArgs e)
+        {
+            using (var frm = new FormRegistrarProductos())
+            {
+                frm.StartPosition = FormStartPosition.CenterParent;
+                frm.ShowDialog(this);
+            }
+        }
+
+        // Nuevo cambio: método público para actualizar productos
+        public void RefrescarProductosEnFactura()
+        {
+            CargarProductos();
+        }
+
+        private void gbFactura_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form5 login = new Form5();
+            login.Show();
+            this.Close();   // Cierra esta ventana
         }
     }
 }

@@ -32,6 +32,8 @@
             panelNuevaFactura = new Panel();
             dgvItems = new DataGridView();
             panelTop = new Panel();
+            btnAgregarProducto = new Button();
+            label9 = new Label();
             panelResumen = new Panel();
             btnFacturasEmitidas = new Button();
             chbIGV = new CheckBox();
@@ -62,9 +64,11 @@
             label1 = new Label();
             cmbCliente = new ComboBox();
             panelInferior = new Panel();
+            button1 = new Button();
             panelMain.SuspendLayout();
             panelNuevaFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvItems).BeginInit();
+            panelTop.SuspendLayout();
             panelResumen.SuspendLayout();
             gbFactura.SuspendLayout();
             SuspendLayout();
@@ -98,15 +102,39 @@
             dgvItems.Location = new Point(353, 34);
             dgvItems.Name = "dgvItems";
             dgvItems.Size = new Size(538, 602);
-            dgvItems.TabIndex = 8;
+            dgvItems.TabIndex = 9;
             // 
             // panelTop
             // 
+            panelTop.Controls.Add(btnAgregarProducto);
+            panelTop.Controls.Add(label9);
             panelTop.Dock = DockStyle.Top;
             panelTop.Location = new Point(353, 0);
             panelTop.Name = "panelTop";
             panelTop.Size = new Size(538, 34);
             panelTop.TabIndex = 7;
+            // 
+            // btnAgregarProducto
+            // 
+            btnAgregarProducto.FlatStyle = FlatStyle.System;
+            btnAgregarProducto.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarProducto.Location = new Point(509, 6);
+            btnAgregarProducto.Name = "btnAgregarProducto";
+            btnAgregarProducto.Size = new Size(23, 23);
+            btnAgregarProducto.TabIndex = 3;
+            btnAgregarProducto.Text = "+";
+            btnAgregarProducto.UseVisualStyleBackColor = true;
+            btnAgregarProducto.Click += btnAgregarProducto_Click;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
+            label9.Location = new Point(159, 6);
+            label9.Name = "label9";
+            label9.Size = new Size(252, 25);
+            label9.TabIndex = 0;
+            label9.Text = "SELECCIÓN DE PRODUCTOS";
             // 
             // panelResumen
             // 
@@ -213,6 +241,7 @@
             // 
             // gbFactura
             // 
+            gbFactura.Controls.Add(button1);
             gbFactura.Controls.Add(label11);
             gbFactura.Controls.Add(label14);
             gbFactura.Controls.Add(btnGenerarFactura);
@@ -237,6 +266,7 @@
             gbFactura.Size = new Size(353, 636);
             gbFactura.TabIndex = 3;
             gbFactura.TabStop = false;
+            gbFactura.Enter += gbFactura_Enter;
             // 
             // label11
             // 
@@ -261,7 +291,7 @@
             // btnGenerarFactura
             // 
             btnGenerarFactura.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnGenerarFactura.Location = new Point(115, 598);
+            btnGenerarFactura.Location = new Point(182, 598);
             btnGenerarFactura.Name = "btnGenerarFactura";
             btnGenerarFactura.Size = new Size(114, 32);
             btnGenerarFactura.TabIndex = 24;
@@ -368,7 +398,7 @@
             // btnAgregarCliente
             // 
             btnAgregarCliente.FlatStyle = FlatStyle.System;
-            btnAgregarCliente.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarCliente.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAgregarCliente.Location = new Point(315, 55);
             btnAgregarCliente.Name = "btnAgregarCliente";
             btnAgregarCliente.Size = new Size(23, 23);
@@ -402,6 +432,17 @@
             panelInferior.Size = new Size(1084, 25);
             panelInferior.TabIndex = 0;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 9.75F);
+            button1.Location = new Point(29, 598);
+            button1.Name = "button1";
+            button1.Size = new Size(98, 32);
+            button1.TabIndex = 27;
+            button1.Text = "Cerrar Sesión";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormNuevaFactura
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -414,6 +455,8 @@
             panelMain.ResumeLayout(false);
             panelNuevaFactura.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgvItems).EndInit();
+            panelTop.ResumeLayout(false);
+            panelTop.PerformLayout();
             panelResumen.ResumeLayout(false);
             panelResumen.PerformLayout();
             gbFactura.ResumeLayout(false);
@@ -456,6 +499,9 @@
         private Label label14;
         private Label label11;
         private Panel panelTop;
+        private Label label9;
+        private Button btnAgregarProducto;
         private DataGridView dgvItems;
+        private Button button1;
     }
 }
