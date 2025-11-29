@@ -30,6 +30,6 @@ public class ClienteService : IClienteService
             return Result.Fail("RUC/DNI inválido (8 u 11 dígitos).");
 
         try { nuevoId = _repo.Crear(nombre, ruc, email, dir); return Result.Ok("Cliente creado."); }
-        catch (InvalidOperationException ex) { return Result.Fail(ex.Message); } // RUC duplicado (unique)
+        catch (InvalidOperationException ex) { return Result.Fail(ex.Message); } // RUC duplicado (unique) cambio xxx
     }
 }
