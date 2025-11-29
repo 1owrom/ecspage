@@ -94,7 +94,6 @@
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(120, 30);
             btnGuardar.Text = "Guardar";
-            btnGuardar.Click += btnGuardar_Click;
 
             // FormAgregarCliente
             ClientSize = new Size(420, 300);
