@@ -33,7 +33,7 @@ namespace ecspage.Infrastructure.Repositories
 
             using var reader = cmd.ExecuteReader();
 
-            if (reader.Read()) return null;
+            if (!reader.Read()) return null;
 
             return new Usuario
             {

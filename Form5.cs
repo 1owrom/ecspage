@@ -39,7 +39,18 @@ namespace ecspage
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
+            string usuario = textBoxUsuario.Text.Trim();
+            string contrasena = textBoxContrasena.Text.Trim();
 
+            var resultado = _authService.Login(usuario, contrasena);
+
+            if(resultado == null) 
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+                return;
+            }
+
+            MessageBox.Show("Inicio de sesión exitoso");          
         }
 
         private void label4_Click(object sender, EventArgs e)
