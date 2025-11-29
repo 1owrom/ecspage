@@ -20,6 +20,10 @@ namespace ecspage.Application.Contracts
     {
         List<(int Id, string Nombre, decimal Precio, int Stock)> ListarActivos();
         Result VerificarStock(IReadOnlyList<CrearFacturaDetalleCmd> detalles);
+        // Nuevo formulario para gestionar productos
+        Result Crear(string nombre, decimal precio, int stock, out int nuevoId);
+        Result Actualizar(int idProducto, string nombre, decimal precio, int stock, bool activo);
+        Result Eliminar(int idProducto);
     }
 
     public interface IInvoiceExporter

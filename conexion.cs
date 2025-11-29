@@ -10,7 +10,7 @@ namespace ecspage
     static internal class conexion
     {
         static string connectionString =
-            "Server=localhost;Database=MiniFacturacion;Trusted_Connection=True;TrustServerCertificate=True;";
+            "Server=PC-JHON-CUBA\\SQLEXPRESS;Database=MiniFacturacion;Trusted_Connection=True;TrustServerCertificate=True;";
 
         public static SqlConnection GetConnection()
         {

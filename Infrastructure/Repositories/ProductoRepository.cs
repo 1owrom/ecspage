@@ -71,5 +71,60 @@ namespace ecspage.Infrastructure.Repositories
             cmd.Parameters.Add(new SqlParameter("@id", SqlDbType.Int) { Value = productoId });
             cmd.ExecuteNonQuery();
         }
+
+        // Nuevo cambio para gestionar agregar producto
+        public void Insertar(string nombre, decimal precio, int stock, out int nuevoId)
+        {
+            using var cn = _factory.Create();
+            using var cmd = cn.CreateCommand();
+
+            cmd.CommandText = @"
+        INSERT INTO Productos (Nombre, PrecioUnitario, Stock, Activo)
+        VALUES (@n, @p, @s, 1);
+        SELECT CAST(SCOPE_IDENTITY() AS INT);";
+
+            cmd.Parameters.Add(new SqlParameter("@n", nombre));
+            cmd.Parameters.Add(new SqlParameter("@p", precio));
+            cmd.Parameters.Add(new SqlParameter("@s", stock));
+
+            nuevoId = (int)cmd.ExecuteScalar();
+        }
+
+        public void Actualizar(int idProducto, string nombre, decimal precio, int stock, bool activo)
+        {
+            using var cn = _factory.Create();
+            using var cmd = cn.CreateCommand();
+
+            cmd.CommandText = @"
+        UPDATE Productos
+        SET Nombre=@n,
+            PrecioUnitario=@p,
+            Stock=@s,
+            Activo=@a
+        WHERE IdProducto=@id";
+
+            cmd.Parameters.Add(new SqlParameter("@n", nombre));
+            cmd.Parameters.Add(new SqlParameter("@p", precio));
+            cmd.Parameters.Add(new SqlParameter("@s", stock));
+            cmd.Parameters.Add(new SqlParameter("@a", activo));
+            cmd.Parameters.Add(new SqlParameter("@id", idProducto));
+
+            cmd.ExecuteNonQuery();
+        }
+
+        public void Eliminar(int idProducto)
+        {
+            using var cn = _factory.Create();
+            using var cmd = cn.CreateCommand();
+
+            cmd.CommandText = @"
+        UPDATE Productos
+        SET Activo = 0
+        WHERE IdProducto=@id";
+
+            cmd.Parameters.Add(new SqlParameter("@id", idProducto));
+            cmd.ExecuteNonQuery();
+        }
+
     }
 }
