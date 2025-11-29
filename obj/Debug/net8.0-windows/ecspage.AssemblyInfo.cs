@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ecspage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af069806a1a59d419b1099f4e206a5cf4a347e95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+090b64622107796c8d919ea453dcac0e6fae9ed4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ecspage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ecspage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
