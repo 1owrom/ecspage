@@ -1,4 +1,5 @@
-﻿using ecspage.Infrastructure.Persistence;
+﻿using ecspage.Application.Services;
+using ecspage.Infrastructure.Persistence;
 using ecspage.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
@@ -14,11 +15,16 @@ namespace ecspage
 {
     public partial class Form5 : Form
     {
+        private readonly AuthService _authService;
+
         public Form5()
         {
             InitializeComponent();
 
-        
+            var factory = new SqlConnectionFactoryAdapter();
+            var repo = new UsuarioRepository(factory);
+            _authService = new AuthService(repo);
+
         }
 
         private void label1_Click(object sender, EventArgs e)
