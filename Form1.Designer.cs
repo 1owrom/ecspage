@@ -64,6 +64,7 @@
             label1 = new Label();
             cmbCliente = new ComboBox();
             panelInferior = new Panel();
+            button1 = new Button();
             panelMain.SuspendLayout();
             panelNuevaFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvItems).BeginInit();
@@ -240,6 +241,7 @@
             // 
             // gbFactura
             // 
+            gbFactura.Controls.Add(button1);
             gbFactura.Controls.Add(label11);
             gbFactura.Controls.Add(label14);
             gbFactura.Controls.Add(btnGenerarFactura);
@@ -264,6 +266,7 @@
             gbFactura.Size = new Size(353, 636);
             gbFactura.TabIndex = 3;
             gbFactura.TabStop = false;
+            gbFactura.Enter += gbFactura_Enter;
             // 
             // label11
             // 
@@ -288,7 +291,7 @@
             // btnGenerarFactura
             // 
             btnGenerarFactura.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnGenerarFactura.Location = new Point(115, 598);
+            btnGenerarFactura.Location = new Point(182, 598);
             btnGenerarFactura.Name = "btnGenerarFactura";
             btnGenerarFactura.Size = new Size(114, 32);
             btnGenerarFactura.TabIndex = 24;
@@ -429,6 +432,17 @@
             panelInferior.Size = new Size(1084, 25);
             panelInferior.TabIndex = 0;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 9.75F);
+            button1.Location = new Point(29, 598);
+            button1.Name = "button1";
+            button1.Size = new Size(98, 32);
+            button1.TabIndex = 27;
+            button1.Text = "Cerrar Sesión";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormNuevaFactura
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -488,5 +502,6 @@
         private Label label9;
         private Button btnAgregarProducto;
         private DataGridView dgvItems;
+        private Button button1;
     }
 }
