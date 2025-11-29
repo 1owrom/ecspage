@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ecspage.Infrastructure.Abstractions
+namespace ecspage.Application.Contracts
 {
     internal class Usuario
     {

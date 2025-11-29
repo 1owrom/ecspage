@@ -133,6 +133,7 @@
             Controls.Add(label1);
             Name = "Form5";
             Text = "Form5";
+            Load += Form5_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

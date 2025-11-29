@@ -1,4 +1,5 @@
-﻿using ecspage.Infrastructure.Abstractions;
+﻿using ecspage.Application.Contracts;
+using ecspage.Infrastructure.Abstractions;
 using Microsoft.Data.SqlClient;
 using Org.BouncyCastle.Asn1.Cmp;
 using System;

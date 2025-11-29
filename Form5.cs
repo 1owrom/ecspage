@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ecspage.Infrastructure.Persistence;
+using ecspage.Infrastructure.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,8 @@ namespace ecspage
         public Form5()
         {
             InitializeComponent();
+
+        
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -33,6 +37,11 @@ namespace ecspage
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
         {
 
         }

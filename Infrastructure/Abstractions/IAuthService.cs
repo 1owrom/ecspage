@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace ecspage.Infrastructure.Abstractions
 {
-    internal interface IUsuarioRepository
+    internal interface IAuthService
     {
-        Usuario ObtenerPorUsuario(String usuario);
+        Usuario Login(string usuario, string contrasena);
     }
 }
