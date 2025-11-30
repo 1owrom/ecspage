@@ -32,8 +32,8 @@
             btnCancelar = new Button();
             cmbCliente = new ComboBox();
             cmbEstado = new ComboBox();
-            Cliente = new Label();
-            Estado = new Label();
+            lblCliente = new Label();
+            lblEstado = new Label();
             SuspendLayout();
             // 
             // btnGuardar
@@ -46,6 +46,7 @@
             btnGuardar.TabIndex = 0;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // btnCancelar
             // 
@@ -57,6 +58,7 @@
             btnCancelar.TabIndex = 1;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // cmbCliente
             // 
@@ -74,33 +76,33 @@
             cmbEstado.Size = new Size(150, 23);
             cmbEstado.TabIndex = 3;
             // 
-            // Cliente
+            // lblCliente
             // 
-            Cliente.AutoSize = true;
-            Cliente.Font = new Font("Segoe UI Historic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Cliente.Location = new Point(103, 68);
-            Cliente.Name = "Cliente";
-            Cliente.Size = new Size(65, 21);
-            Cliente.TabIndex = 4;
-            Cliente.Text = "Cliente";
+            lblCliente.AutoSize = true;
+            lblCliente.Font = new Font("Segoe UI Historic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCliente.Location = new Point(103, 68);
+            lblCliente.Name = "lblCliente";
+            lblCliente.Size = new Size(65, 21);
+            lblCliente.TabIndex = 4;
+            lblCliente.Text = "Cliente";
             // 
-            // Estado
+            // lblEstado
             // 
-            Estado.AutoSize = true;
-            Estado.Font = new Font("Segoe UI Historic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Estado.Location = new Point(103, 147);
-            Estado.Name = "Estado";
-            Estado.Size = new Size(62, 21);
-            Estado.TabIndex = 5;
-            Estado.Text = "Estado";
+            lblEstado.AutoSize = true;
+            lblEstado.Font = new Font("Segoe UI Historic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblEstado.Location = new Point(103, 147);
+            lblEstado.Name = "lblEstado";
+            lblEstado.Size = new Size(62, 21);
+            lblEstado.TabIndex = 5;
+            lblEstado.Text = "Estado";
             // 
             // FormEditarFactura
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(475, 386);
-            Controls.Add(Estado);
-            Controls.Add(Cliente);
+            Controls.Add(lblEstado);
+            Controls.Add(lblCliente);
             Controls.Add(cmbEstado);
             Controls.Add(cmbCliente);
             Controls.Add(btnCancelar);
@@ -118,7 +120,7 @@
         private Button btnCancelar;
         private ComboBox cmbCliente;
         private ComboBox cmbEstado;
-        private Label Cliente;
-        private Label Estado;
+        private Label lblCliente;
+        private Label lblEstado;
     }
 }

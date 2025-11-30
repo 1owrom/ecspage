@@ -688,5 +688,9 @@ namespace ecspage
             CargarProductos();
         }
 
+        private void cmbCliente_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -135,6 +135,26 @@ namespace ecspage.Infrastructure.Repositories
             }
         }
 
+        public void ActualizarFactura(int idFactura, int nuevoClienteId, string nuevoEstado)
+        {
+            using var cn = _factory.Create();
+            using var cmd = cn.CreateCommand();
+
+            cmd.CommandText = @"
+        UPDATE Facturas
+        SET 
+            IdCliente = @cli,
+            Estado = @est
+        WHERE IdFactura = @id";
+
+            cmd.Parameters.Add(new SqlParameter("@cli", SqlDbType.Int) { Value = nuevoClienteId });
+            cmd.Parameters.Add(new SqlParameter("@est", SqlDbType.VarChar, 10) { Value = nuevoEstado });
+            cmd.Parameters.Add(new SqlParameter("@id", SqlDbType.Int) { Value = idFactura });
+
+            cmd.ExecuteNonQuery();
+        }
+
+
         public List<FacturaDTO> Listar(FiltroFacturas filtro)
         {
             using var cn = _factory.Create();

@@ -34,6 +34,7 @@ namespace ecspage.Application.Contracts
     public class FacturaDTO
     {
         public int Id { get; set; }
+        public int IdCliente { get; set; }
         public string Serie { get; set; } = "";
         public string ClienteNombre { get; set; } = "";
         public DateTime Fecha { get; set; }

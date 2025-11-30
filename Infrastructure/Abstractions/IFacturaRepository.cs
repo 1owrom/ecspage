@@ -17,6 +17,9 @@ namespace ecspage.Infrastructure.Abstractions
 
         void Anular(int facturaId);
 
+        void ActualizarFactura(int idFactura, int nuevoClienteId, string nuevoEstado);
+
+
         FacturaDTO? Obtener(int facturaId);
 
         List<FacturaDTO> Listar(FiltroFacturas filtro);
