@@ -103,21 +103,22 @@ namespace ecspage
         {
             try
             {
-                var list = _clientes.Listar(); // (Id, Nombre, Ruc, Email, Direccion)
+                var listaTuplas = _clientes.Listar(); // (Id, Nombre, Ruc, Email, Direccion)
 
-                var dt = new DataTable();
-                dt.Columns.Add("IdCliente", typeof(int));
-                dt.Columns.Add("Nombre", typeof(string));
+                var lista = listaTuplas
+                    .Select(c => new ClienteItem
+                    {
+                        Id = c.Id,
+                        Nombre = c.Nombre
+                    })
+                    .ToList();
 
-                // Fila "Todos"
-                dt.Rows.Add(0, "Todos");
+                // Agregar "Todos"
+                lista.Insert(0, new ClienteItem { Id = 0, Nombre = "Todos" });
 
-                foreach (var c in list)
-                    dt.Rows.Add(c.Id, c.Nombre);
-
-                cmbFiltrarCliente.DataSource = dt;
+                cmbFiltrarCliente.DataSource = lista;
                 cmbFiltrarCliente.DisplayMember = "Nombre";
-                cmbFiltrarCliente.ValueMember = "IdCliente";
+                cmbFiltrarCliente.ValueMember = "Id";
                 cmbFiltrarCliente.SelectedValue = 0;
             }
             catch (Exception ex)
@@ -274,6 +275,11 @@ namespace ecspage
         }
 
         private void btnEditarFactura_Click_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             // 1) Validar selección
             if (dgvListarFacturas.CurrentRow == null)

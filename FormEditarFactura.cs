@@ -44,10 +44,15 @@ namespace ecspage
             }
 
             // 👉 Cargar clientes
-            var lista = _clientes.Listar();
+            var listaTuplas = _clientes.Listar();
+
+            var lista = listaTuplas
+                .Select(c => new ClienteItem { Id = c.Id, Nombre = c.Nombre })
+                .ToList();
+
             cmbCliente.DataSource = lista;
             cmbCliente.DisplayMember = "Nombre";
-            cmbCliente.ValueMember = "IdCliente";
+            cmbCliente.ValueMember = "Id";
             cmbCliente.SelectedValue = factura.IdCliente;
 
             // 👉 Cargar estados
@@ -76,6 +81,11 @@ namespace ecspage
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void cmbCliente_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

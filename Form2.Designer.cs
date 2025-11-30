@@ -41,12 +41,12 @@
             dtHasta = new DateTimePicker();
             dtDesde = new DateTimePicker();
             panelAcciones = new Panel();
-            btnEditarFactura_Click = new Button();
             btnRegresar = new Button();
             btnExportarPDFMasivo = new Button();
             btnAnularFacturaMasivo = new Button();
             btnDetalleFactura = new Button();
             dgvListarFacturas = new DataGridView();
+            button1 = new Button();
             panelFiltros.SuspendLayout();
             panelAcciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvListarFacturas).BeginInit();
@@ -171,7 +171,7 @@
             // 
             // panelAcciones
             // 
-            panelAcciones.Controls.Add(btnEditarFactura_Click);
+            panelAcciones.Controls.Add(button1);
             panelAcciones.Controls.Add(btnRegresar);
             panelAcciones.Controls.Add(btnExportarPDFMasivo);
             panelAcciones.Controls.Add(btnAnularFacturaMasivo);
@@ -181,16 +181,6 @@
             panelAcciones.Name = "panelAcciones";
             panelAcciones.Size = new Size(1084, 49);
             panelAcciones.TabIndex = 1;
-            // 
-            // btnEditarFactura_Click
-            // 
-            btnEditarFactura_Click.Location = new Point(304, 14);
-            btnEditarFactura_Click.Name = "btnEditarFactura_Click";
-            btnEditarFactura_Click.Size = new Size(96, 23);
-            btnEditarFactura_Click.TabIndex = 4;
-            btnEditarFactura_Click.Text = "Editar";
-            btnEditarFactura_Click.UseVisualStyleBackColor = true;
-            btnEditarFactura_Click.Click += btnEditarFactura_Click_Click_1;
             // 
             // btnRegresar
             // 
@@ -241,6 +231,16 @@
             dgvListarFacturas.Size = new Size(1084, 558);
             dgvListarFacturas.TabIndex = 2;
             // 
+            // button1
+            // 
+            button1.Location = new Point(299, 14);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Editar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormListadoFacturas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -279,6 +279,6 @@
         private Button btnDetalleFactura;
         private Button btnlimpiar;
         private Button btnFiltrar;
-        private Button btnEditarFactura_Click;
+        private Button button1;
     }
 }
