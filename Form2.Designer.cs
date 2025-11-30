@@ -41,6 +41,7 @@
             dtHasta = new DateTimePicker();
             dtDesde = new DateTimePicker();
             panelAcciones = new Panel();
+            btnEditarFactura_Click = new Button();
             btnRegresar = new Button();
             btnExportarPDFMasivo = new Button();
             btnAnularFacturaMasivo = new Button();
@@ -170,6 +171,7 @@
             // 
             // panelAcciones
             // 
+            panelAcciones.Controls.Add(btnEditarFactura_Click);
             panelAcciones.Controls.Add(btnRegresar);
             panelAcciones.Controls.Add(btnExportarPDFMasivo);
             panelAcciones.Controls.Add(btnAnularFacturaMasivo);
@@ -179,6 +181,16 @@
             panelAcciones.Name = "panelAcciones";
             panelAcciones.Size = new Size(1084, 49);
             panelAcciones.TabIndex = 1;
+            // 
+            // btnEditarFactura_Click
+            // 
+            btnEditarFactura_Click.Location = new Point(304, 14);
+            btnEditarFactura_Click.Name = "btnEditarFactura_Click";
+            btnEditarFactura_Click.Size = new Size(96, 23);
+            btnEditarFactura_Click.TabIndex = 4;
+            btnEditarFactura_Click.Text = "Editar";
+            btnEditarFactura_Click.UseVisualStyleBackColor = true;
+            btnEditarFactura_Click.Click += btnEditarFactura_Click_Click_1;
             // 
             // btnRegresar
             // 
@@ -267,5 +279,6 @@
         private Button btnDetalleFactura;
         private Button btnlimpiar;
         private Button btnFiltrar;
+        private Button btnEditarFactura_Click;
     }
 }

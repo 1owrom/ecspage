@@ -57,5 +57,21 @@ namespace ecspage.Application.Services
         }
         public FacturaDTO? ObtenerFactura(int facturaId) => _facturas.Obtener(facturaId);
         public List<FacturaDTO> Listar(FiltroFacturas filtro) => _facturas.Listar(filtro);
+
+
+        public Result EditarFactura(int idFactura, int nuevoClienteId, string nuevoEstado)
+        {
+            try
+            {
+                _facturas.ActualizarFactura(idFactura, nuevoClienteId, nuevoEstado);
+                return Result.Ok("Factura actualizada correctamente.");
+            }
+            catch (Exception ex)
+            {
+                return Result.Fail("No se pudo actualizar la factura: " + ex.Message);
+            }
+        }
+
     }
+
 }
