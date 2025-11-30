@@ -103,22 +103,21 @@ namespace ecspage
         {
             try
             {
-                var listaTuplas = _clientes.Listar(); // (Id, Nombre, Ruc, Email, Direccion)
+                var list = _clientes.Listar(); // (Id, Nombre, Ruc, Email, Direccion)
 
-                var lista = listaTuplas
-                    .Select(c => new ClienteItem
-                    {
-                        Id = c.Id,
-                        Nombre = c.Nombre
-                    })
-                    .ToList();
+                var dt = new DataTable();
+                dt.Columns.Add("IdCliente", typeof(int));
+                dt.Columns.Add("Nombre", typeof(string));
 
-                // Agregar "Todos"
-                lista.Insert(0, new ClienteItem { Id = 0, Nombre = "Todos" });
+                // Fila "Todos"
+                dt.Rows.Add(0, "Todos");
 
-                cmbFiltrarCliente.DataSource = lista;
+                foreach (var c in list)
+                    dt.Rows.Add(c.Id, c.Nombre);
+
+                cmbFiltrarCliente.DataSource = dt;
                 cmbFiltrarCliente.DisplayMember = "Nombre";
-                cmbFiltrarCliente.ValueMember = "Id";
+                cmbFiltrarCliente.ValueMember = "IdCliente";
                 cmbFiltrarCliente.SelectedValue = 0;
             }
             catch (Exception ex)

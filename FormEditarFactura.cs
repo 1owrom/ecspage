@@ -64,18 +64,40 @@ namespace ecspage
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            int nuevoCliente = Convert.ToInt32(cmbCliente.SelectedValue);
-            string nuevoEstado = cmbEstado.Text;
+            // 🟦 Validar selección del cliente
+            if (cmbCliente.SelectedValue == null)
+            {
+                MessageBox.Show("Seleccione un cliente.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
+            // 🟦 Obtener datos del formulario
+            int nuevoCliente = (int)cmbCliente.SelectedValue;
+            string nuevoEstado = cmbEstado.Text.Trim();
+
+            if (string.IsNullOrEmpty(nuevoEstado))
+            {
+                MessageBox.Show("Seleccione un estado.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 🟩 Ejecutar la edición
             var r = _facturas.EditarFactura(_idFactura, nuevoCliente, nuevoEstado);
 
-            MessageBox.Show(r.Message,
+            // 🟦 Mostrar mensaje
+            MessageBox.Show(
+                r.Message,
                 r.Success ? "Éxito" : "Error",
                 MessageBoxButtons.OK,
-                r.Success ? MessageBoxIcon.Information : MessageBoxIcon.Error);
+                r.Success ? MessageBoxIcon.Information : MessageBoxIcon.Error
+            );
 
+            // 🟩 Si todo ok, cerrar el formulario
             if (r.Success)
+            {
                 this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
