@@ -450,6 +450,7 @@
             Controls.Add(panelMain);
             Name = "FormNuevaFactura";
             Text = "Facturación";
+            FormClosing += FormNuevaFactura_FormClosing;
             Load += FormNuevaFactura_Load;
             panelMain.ResumeLayout(false);
             panelNuevaFactura.ResumeLayout(false);

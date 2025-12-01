@@ -44,6 +44,8 @@ namespace ecspage
         {
             InitializeComponent();
             Load += FormNuevaFactura_Load;
+            this.StartPosition = FormStartPosition.CenterScreen;
+
         }
 
         // ================================== LOAD ==================================  //prueba
@@ -232,6 +234,7 @@ namespace ecspage
             // Abrir el formulario para agregar cliente
             using (var frm = new FormAgregarCliente())
             {
+                frm.StartPosition = FormStartPosition.CenterParent;
                 var resultado = frm.ShowDialog();
 
                 // Si el usuario canceló, salir
@@ -258,6 +261,7 @@ namespace ecspage
                 MessageBox.Show("Cliente agregado correctamente.",
                     "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
         }
 
 
@@ -726,6 +730,11 @@ namespace ecspage
             Form5 login = new Form5();
             login.Show();
             this.Close();   // Cierra esta ventana
+        }
+
+        private void FormNuevaFactura_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

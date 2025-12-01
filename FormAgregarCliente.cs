@@ -45,6 +45,12 @@ namespace ecspage
             this.DialogResult = DialogResult.Cancel;
             this.Close();
         }
+
+        private void FormAgregarCliente_Load(object sender, EventArgs e)
+        {
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+        }
     }
 
     // === DTO simple para enviar el cliente creado ===

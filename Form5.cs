@@ -20,6 +20,7 @@ namespace ecspage
         public Form5()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
 
             var factory = new SqlConnectionFactoryAdapter();
             var repo = new UsuarioRepository(factory);
@@ -59,6 +60,11 @@ namespace ecspage
             {
                 System.Windows.Forms.Application.Exit();
             }
+        }
+
+        private void Form5_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }
