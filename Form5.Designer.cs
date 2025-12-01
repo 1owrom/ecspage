@@ -133,6 +133,7 @@
             Controls.Add(label1);
             Name = "Form5";
             Text = "Form5";
+            FormClosing += Form5_FormClosing;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

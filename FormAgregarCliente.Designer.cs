@@ -49,18 +49,16 @@ namespace ecspage
             txtDireccion = new TextBox();
             btnGuardar = new Button();
             SuspendLayout();
-
             // 
             // labelTitulo
             // 
             labelTitulo.AutoSize = true;
-            labelTitulo.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            labelTitulo.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
             labelTitulo.Location = new Point(180, 20);
             labelTitulo.Name = "labelTitulo";
-            labelTitulo.Size = new Size(240, 32);
+            labelTitulo.Size = new Size(193, 32);
             labelTitulo.TabIndex = 0;
             labelTitulo.Text = "Agregar Cliente";
-
             // 
             // labelNombre
             // 
@@ -70,7 +68,6 @@ namespace ecspage
             labelNombre.Size = new Size(54, 15);
             labelNombre.TabIndex = 1;
             labelNombre.Text = "Nombre:";
-
             // 
             // txtNombre
             // 
@@ -78,17 +75,15 @@ namespace ecspage
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(250, 23);
             txtNombre.TabIndex = 2;
-
             // 
             // labelRuc
             // 
             labelRuc.AutoSize = true;
             labelRuc.Location = new Point(60, 150);
             labelRuc.Name = "labelRuc";
-            labelRuc.Size = new Size(32, 15);
+            labelRuc.Size = new Size(33, 15);
             labelRuc.TabIndex = 3;
             labelRuc.Text = "RUC:";
-
             // 
             // txtRuc
             // 
@@ -96,7 +91,6 @@ namespace ecspage
             txtRuc.Name = "txtRuc";
             txtRuc.Size = new Size(250, 23);
             txtRuc.TabIndex = 4;
-
             // 
             // labelEmail
             // 
@@ -106,7 +100,6 @@ namespace ecspage
             labelEmail.Size = new Size(39, 15);
             labelEmail.TabIndex = 5;
             labelEmail.Text = "Email:";
-
             // 
             // txtEmail
             // 
@@ -114,17 +107,15 @@ namespace ecspage
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(250, 23);
             txtEmail.TabIndex = 6;
-
             // 
             // labelDireccion
             // 
             labelDireccion.AutoSize = true;
             labelDireccion.Location = new Point(60, 250);
             labelDireccion.Name = "labelDireccion";
-            labelDireccion.Size = new Size(62, 15);
+            labelDireccion.Size = new Size(60, 15);
             labelDireccion.TabIndex = 7;
             labelDireccion.Text = "Dirección:";
-
             // 
             // txtDireccion
             // 
@@ -132,7 +123,6 @@ namespace ecspage
             txtDireccion.Name = "txtDireccion";
             txtDireccion.Size = new Size(250, 23);
             txtDireccion.TabIndex = 8;
-
             // 
             // btnGuardar
             // 
@@ -141,11 +131,8 @@ namespace ecspage
             btnGuardar.Size = new Size(150, 35);
             btnGuardar.TabIndex = 9;
             btnGuardar.Text = "Guardar";
-
             btnGuardar.UseVisualStyleBackColor = true;
             btnGuardar.Click += btnGuardar_Click;
-
-
             // 
             // FormAgregarCliente
             // 
@@ -164,6 +151,7 @@ namespace ecspage
             Controls.Add(btnGuardar);
             Name = "FormAgregarCliente";
             Text = "Agregar Cliente";
+            Load += FormAgregarCliente_Load;
             ResumeLayout(false);
             PerformLayout();
         }
