@@ -100,11 +100,11 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold);
-            label4.Location = new Point(55, 17);
+            label4.Location = new Point(48, 17);
             label4.Name = "label4";
-            label4.Size = new Size(177, 25);
+            label4.Size = new Size(202, 25);
             label4.TabIndex = 12;
-            label4.Text = "Adicionar producto";
+            label4.Text = "AGREGAR PRODUCTO";
             // 
             // label3
             // 
