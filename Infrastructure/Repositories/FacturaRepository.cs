@@ -72,6 +72,7 @@ namespace ecspage.Infrastructure.Repositories
                 cmd.CommandText = @"
                     SELECT
                         f.IdFactura         AS Id,
+                        c.IdCliente         AS IdCliente,
                         c.Nombre            AS ClienteNombre,
                         f.FechaEmision      AS Fecha,
                         f.Estado            AS Estado,
@@ -93,16 +94,17 @@ namespace ecspage.Infrastructure.Repositories
                 var dto = new FacturaDTO
                 {
                     Id = rd.GetInt32(0),
-                    ClienteNombre = rd.GetString(1),
-                    Fecha = rd.GetDateTime(2),
-                    Estado = rd.GetString(3),
-                    Subtotal = rd.GetDecimal(4),
-                    Impuesto = rd.GetDecimal(5),
-                    Total = rd.GetDecimal(6),
-                    ClienteRuc = rd.IsDBNull(7) ? null : rd.GetString(7),
-                    ClienteEmail = rd.IsDBNull(8) ? null : rd.GetString(8),
-                    ClienteDireccion = rd.IsDBNull(9) ? null : rd.GetString(9),
-                    Serie = rd.IsDBNull(10) ? string.Empty : rd.GetString(10),
+                    IdCliente = rd.GetInt32(1), //Añadido para obtener cliente al editar factura
+                    ClienteNombre = rd.GetString(2),
+                    Fecha = rd.GetDateTime(3),
+                    Estado = rd.GetString(4),
+                    Subtotal = rd.GetDecimal(5),
+                    Impuesto = rd.GetDecimal(6),
+                    Total = rd.GetDecimal(7),
+                    ClienteRuc = rd.IsDBNull(8) ? null : rd.GetString(8),
+                    ClienteEmail = rd.IsDBNull(9) ? null : rd.GetString(9),
+                    ClienteDireccion = rd.IsDBNull(10) ? null : rd.GetString(10),
+                    Serie = rd.IsDBNull(11) ? string.Empty : rd.GetString(11),
                     Detalles = new List<FacturaDetalleDTO>()
                 };
 

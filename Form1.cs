@@ -91,8 +91,8 @@ namespace ecspage
             // Estados
             cmbEstado.Items.Clear();
             cmbEstado.Items.AddRange(new object[] { "Pendiente", "Pagada" });
-            cmbEstado.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbEstado.SelectedIndex = 0;
+            cmbEstado.DropDownStyle = ComboBoxStyle.DropDownList;
 
             // Fecha
             if (dtFechaEmision != null)
