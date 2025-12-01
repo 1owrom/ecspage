@@ -45,7 +45,7 @@
             label13 = new Label();
             label12 = new Label();
             gbFactura = new GroupBox();
-            button1 = new Button();
+            btnCerrarSesion = new Button();
             label11 = new Label();
             label14 = new Label();
             btnGenerarFactura = new Button();
@@ -65,7 +65,6 @@
             label1 = new Label();
             cmbCliente = new ComboBox();
             panelInferior = new Panel();
-            button1 = new Button();
             panelMain.SuspendLayout();
             panelNuevaFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvItems).BeginInit();
@@ -242,7 +241,7 @@
             // 
             // gbFactura
             // 
-            gbFactura.Controls.Add(button1);
+            gbFactura.Controls.Add(btnCerrarSesion);
             gbFactura.Controls.Add(label11);
             gbFactura.Controls.Add(label14);
             gbFactura.Controls.Add(btnGenerarFactura);
@@ -267,18 +266,17 @@
             gbFactura.Size = new Size(353, 636);
             gbFactura.TabIndex = 3;
             gbFactura.TabStop = false;
-            gbFactura.Enter += gbFactura_Enter;
             // 
-            // button1
+            // btnCerrarSesion
             // 
-            button1.Font = new Font("Segoe UI", 9.75F);
-            button1.Location = new Point(29, 598);
-            button1.Name = "button1";
-            button1.Size = new Size(98, 32);
-            button1.TabIndex = 27;
-            button1.Text = "Cerrar Sesión";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnCerrarSesion.Font = new Font("Segoe UI", 9.75F);
+            btnCerrarSesion.Location = new Point(42, 598);
+            btnCerrarSesion.Name = "btnCerrarSesion";
+            btnCerrarSesion.Size = new Size(98, 32);
+            btnCerrarSesion.TabIndex = 27;
+            btnCerrarSesion.Text = "Cerrar Sesión";
+            btnCerrarSesion.UseVisualStyleBackColor = true;
+            btnCerrarSesion.Click += btnCerrarSesion_Click;
             // 
             // label11
             // 
@@ -309,7 +307,6 @@
             btnGenerarFactura.TabIndex = 24;
             btnGenerarFactura.Text = "Generar Factura";
             btnGenerarFactura.UseVisualStyleBackColor = true;
-            btnGenerarFactura.Click += btnGenerarFactura_Click_1;
             // 
             // dtFechaEmision
             // 
@@ -436,7 +433,6 @@
             cmbCliente.Name = "cmbCliente";
             cmbCliente.Size = new Size(244, 23);
             cmbCliente.TabIndex = 0;
-            cmbCliente.SelectedIndexChanged += cmbCliente_SelectedIndexChanged_1;
             // 
             // panelInferior
             // 
@@ -445,17 +441,6 @@
             panelInferior.Name = "panelInferior";
             panelInferior.Size = new Size(1084, 25);
             panelInferior.TabIndex = 0;
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Segoe UI", 9.75F);
-            button1.Location = new Point(29, 598);
-            button1.Name = "button1";
-            button1.Size = new Size(98, 32);
-            button1.TabIndex = 27;
-            button1.Text = "Cerrar Sesión";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // FormNuevaFactura
             // 
@@ -516,6 +501,6 @@
         private Label label9;
         private Button btnAgregarProducto;
         private DataGridView dgvItems;
-        private Button button1;
+        private Button btnCerrarSesion;
     }
 }

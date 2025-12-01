@@ -688,26 +688,11 @@ namespace ecspage
             CargarProductos();
         }
 
-        private void cmbCliente_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gbFactura_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
             Form5 login = new Form5();
             login.Show();
             this.Close();   // Cierra esta ventana
-        }
-
-        private void btnGenerarFactura_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }
