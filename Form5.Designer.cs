@@ -49,7 +49,6 @@
             label1.Size = new Size(137, 46);
             label1.TabIndex = 0;
             label1.Text = "LOGIN";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -118,7 +117,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 7;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // Form5
             // 
@@ -135,7 +133,6 @@
             Controls.Add(label1);
             Name = "Form5";
             Text = "Form5";
-            Load += Form5_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

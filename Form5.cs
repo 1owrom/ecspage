@@ -27,16 +27,6 @@ namespace ecspage
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
             string usuario = textBoxUsuario.Text.Trim();
@@ -56,16 +46,6 @@ namespace ecspage
             f.Show();
 
             this.Hide();
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form5_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
