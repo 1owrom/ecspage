@@ -1,10 +1,65 @@
+# Archivos de usuario (estos NO deben ir al repo)
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
 bin/
 obj/
-.vs/
-*.suo
-*.user
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+
+# Archivos de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos de Visual Studio
 *.cache
-*.vsidx
-*.sqlite
 *.pdb
+*.dbmdl
+*.jfm
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+*.ncb
+*.opendb
+*.VC.db
+
+# Logs
+*.log
+
+# Archivos de paquetes NuGet
+*.nupkg
+packages/
+
+# Archivos de dependencias
 *.dll
+*.exe
+
+# Publicaciones
+publish/
+
+# Configuración de usuario de .NET
+*.csproj.user
+
+# Sistema .vs (de Visual Studio)
+.vs/
+
+# Archivos generados por compilación de Razor
+*.g.cs
+*.g.cshtml.cs
+
+# Archivos de cobertura
+coverage/
+*.coverage
+*.coveragexml
+
+# Otros
+*.tmp
+*.temp

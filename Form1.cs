@@ -13,7 +13,7 @@ namespace ecspage
 {
     public partial class FormNuevaFactura : System.Windows.Forms.Form
     {
-        // ========= MODELO PARA EL GRID =========
+        // ========= MODELO PARA EL GRID =========cambio de prueba
         private sealed class ItemFactura
         {
             public int? ProductoId { get; set; }
@@ -691,6 +691,18 @@ namespace ecspage
         private void cmbCliente_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void gbFactura_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form5 login = new Form5();
+            login.Show();
+            this.Close();   // Cierra esta ventana
         }
     }
 }
