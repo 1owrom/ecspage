@@ -152,81 +152,114 @@ namespace ecspage
             }
         }
 
+        //private void btnAgregarCliente_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        // 1) Solo se puede agregar si el combo está en "Seleccionar Cliente"
+        //        if (cmbCliente.SelectedValue is int idSel && idSel != ID_OCASIONAL)
+        //        {
+        //            MessageBox.Show(
+        //                "Para agregar un nuevo cliente, primero selecciona la opción \"Seleccionar Cliente\".",
+        //                "Acción no permitida",
+        //                MessageBoxButtons.OK,
+        //                MessageBoxIcon.Information);
+        //            cmbCliente.SelectedValue = ID_OCASIONAL;
+        //            return;
+        //        }
+
+        // 2) Captura y saneo
+        //    var nombre = txtNombreCliente.Text.Trim();
+        //    var ruc = txtRUC.Text.Trim();
+        //    var email = string.IsNullOrWhiteSpace(txtEmail.Text) ? null : txtEmail.Text.Trim();
+        //    var dir = string.IsNullOrWhiteSpace(txtDireccion.Text) ? null : txtDireccion.Text.Trim();
+
+        //    // 3) Validaciones de campos
+        //    if (string.IsNullOrWhiteSpace(nombre))
+        //    {
+        //        MessageBox.Show("Ingrese el nombre del cliente.", "Validación",
+        //            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        //        txtNombreCliente.Focus();
+        //        return;
+        //    }
+
+        //    if (!EsRucDniValido(ruc))
+        //    {
+        //        MessageBox.Show("RUC/DNI inválido. Debe tener 8 (DNI) o 11 (RUC) dígitos numéricos.",
+        //            "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        //        txtRUC.Focus();
+        //        return;
+        //    }
+
+        //    // 4) No duplicar por RUC/DNI (validación en memoria)
+        //    bool existeEnCache = _dtClientes.AsEnumerable()
+        //        .Any(r => string.Equals(r.Field<string>("RucDni") ?? "",
+        //                                ruc,
+        //                                StringComparison.OrdinalIgnoreCase));
+
+        //    if (existeEnCache)
+        //    {
+        //        MessageBox.Show("Ya existe un cliente con ese RUC/DNI.",
+        //            "Duplicado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //        return;
+        //    }
+
+        //    // 5) Crear en BD (si en BD hay UNIQUE también nos protege)
+        //    var nuevoId = _clienteService.Crear(nombre, ruc, email, dir);
+
+        //    // 6) Agregar al DataTable del combo sin perder la fila "Seleccionar Cliente"
+        //    _dtClientes.Rows.Add(nuevoId, nombre, ruc, email ?? "", dir ?? "", $"{nombre} - {ruc}");
+        //    _dtClientes.AcceptChanges();
+
+        //    // 7) Seleccionar al nuevo cliente
+        //    cmbCliente.SelectedValue = nuevoId;
+
+        //    MessageBox.Show("Cliente agregado correctamente.", "Éxito",
+        //        MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //}
+        //catch (InvalidOperationException ex) // por UNIQUE en BD (RUC/DNI duplicado)
+        //{
+        //    MessageBox.Show(ex.Message, "Duplicado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //}
+        //catch (Exception ex)
+        //{
+        //    MessageBox.Show("No se pudo agregar el cliente:\n" + ex.Message,
+        //        "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        //}
+        //}
         private void btnAgregarCliente_Click(object sender, EventArgs e)
         {
-            try
+            // Abrir el formulario para agregar cliente
+            using (var frm = new FormAgregarCliente())
             {
-                // 1) Solo se puede agregar si el combo está en "Seleccionar Cliente"
-                if (cmbCliente.SelectedValue is int idSel && idSel != ID_OCASIONAL)
-                {
-                    MessageBox.Show(
-                        "Para agregar un nuevo cliente, primero selecciona la opción \"Seleccionar Cliente\".",
-                        "Acción no permitida",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information);
-                    cmbCliente.SelectedValue = ID_OCASIONAL;
+                var resultado = frm.ShowDialog();
+
+                // Si el usuario canceló, salir
+                if (resultado != DialogResult.OK)
                     return;
-                }
 
-                // 2) Captura y saneo
-                var nombre = txtNombreCliente.Text.Trim();
-                var ruc = txtRUC.Text.Trim();
-                var email = string.IsNullOrWhiteSpace(txtEmail.Text) ? null : txtEmail.Text.Trim();
-                var dir = string.IsNullOrWhiteSpace(txtDireccion.Text) ? null : txtDireccion.Text.Trim();
+                // Obtener el cliente creado desde el formulario
+                var c = frm.ClienteCreado;
 
-                // 3) Validaciones de campos
-                if (string.IsNullOrWhiteSpace(nombre))
-                {
-                    MessageBox.Show("Ingrese el nombre del cliente.", "Validación",
-                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    txtNombreCliente.Focus();
-                    return;
-                }
+                // Guardar en la base de datos (tu servicio debe tener Crear)
+                int idNuevo = _clienteService.Crear(
+                    c.Nombre,
+                    c.Ruc,
+                    c.Email,
+                    c.Direccion
+                );
 
-                if (!EsRucDniValido(ruc))
-                {
-                    MessageBox.Show("RUC/DNI inválido. Debe tener 8 (DNI) o 11 (RUC) dígitos numéricos.",
-                        "Validación", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    txtRUC.Focus();
-                    return;
-                }
+                // Volver a cargar los clientes al combo
+                CargarClientes();
 
-                // 4) No duplicar por RUC/DNI (validación en memoria)
-                bool existeEnCache = _dtClientes.AsEnumerable()
-                    .Any(r => string.Equals(r.Field<string>("RucDni") ?? "",
-                                            ruc,
-                                            StringComparison.OrdinalIgnoreCase));
+                // Seleccionar el nuevo cliente automáticamente
+                cmbCliente.SelectedValue = idNuevo;
 
-                if (existeEnCache)
-                {
-                    MessageBox.Show("Ya existe un cliente con ese RUC/DNI.",
-                        "Duplicado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
-                }
-
-                // 5) Crear en BD (si en BD hay UNIQUE también nos protege)
-                var nuevoId = _clienteService.Crear(nombre, ruc, email, dir);
-
-                // 6) Agregar al DataTable del combo sin perder la fila "Seleccionar Cliente"
-                _dtClientes.Rows.Add(nuevoId, nombre, ruc, email ?? "", dir ?? "", $"{nombre} - {ruc}");
-                _dtClientes.AcceptChanges();
-
-                // 7) Seleccionar al nuevo cliente
-                cmbCliente.SelectedValue = nuevoId;
-
-                MessageBox.Show("Cliente agregado correctamente.", "Éxito",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (InvalidOperationException ex) // por UNIQUE en BD (RUC/DNI duplicado)
-            {
-                MessageBox.Show(ex.Message, "Duplicado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("No se pudo agregar el cliente:\n" + ex.Message,
-                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Cliente agregado correctamente.",
+                    "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
 
         // Helper: valida 8 u 11 dígitos numéricos
         private static bool EsRucDniValido(string? valor)
