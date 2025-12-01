@@ -44,7 +44,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft YaHei", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(296, 31);
+            label1.Location = new Point(169, 9);
             label1.Name = "label1";
             label1.Size = new Size(137, 46);
             label1.TabIndex = 0;
@@ -109,9 +109,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Anchor = AnchorStyles.None;
+            pictureBox1.Anchor = AnchorStyles.Left;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 81);
+            pictureBox1.Location = new Point(19, 81);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(146, 153);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -122,7 +122,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(625, 335);
+            ClientSize = new Size(464, 335);
             Controls.Add(pictureBox1);
             Controls.Add(btnSalir);
             Controls.Add(btnIniciarSesion);
