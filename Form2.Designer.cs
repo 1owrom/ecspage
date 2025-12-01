@@ -46,6 +46,7 @@
             btnAnularFacturaMasivo = new Button();
             btnDetalleFactura = new Button();
             dgvListarFacturas = new DataGridView();
+            button1 = new Button();
             panelFiltros.SuspendLayout();
             panelAcciones.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvListarFacturas).BeginInit();
@@ -170,6 +171,7 @@
             // 
             // panelAcciones
             // 
+            panelAcciones.Controls.Add(button1);
             panelAcciones.Controls.Add(btnRegresar);
             panelAcciones.Controls.Add(btnExportarPDFMasivo);
             panelAcciones.Controls.Add(btnAnularFacturaMasivo);
@@ -229,6 +231,16 @@
             dgvListarFacturas.Size = new Size(1084, 558);
             dgvListarFacturas.TabIndex = 2;
             // 
+            // button1
+            // 
+            button1.Location = new Point(299, 14);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 4;
+            button1.Text = "Editar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormListadoFacturas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -267,5 +279,6 @@
         private Button btnDetalleFactura;
         private Button btnlimpiar;
         private Button btnFiltrar;
+        private Button button1;
     }
 }

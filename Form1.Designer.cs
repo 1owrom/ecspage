@@ -436,6 +436,7 @@
             cmbCliente.Name = "cmbCliente";
             cmbCliente.Size = new Size(244, 23);
             cmbCliente.TabIndex = 0;
+            cmbCliente.SelectedIndexChanged += cmbCliente_SelectedIndexChanged_1;
             // 
             // panelInferior
             // 

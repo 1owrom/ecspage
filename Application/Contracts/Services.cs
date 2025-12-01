@@ -14,6 +14,8 @@ namespace ecspage.Application.Contracts
         Result AnularFactura(int facturaId);
         FacturaDTO? ObtenerFactura(int facturaId);
         List<FacturaDTO> Listar(FiltroFacturas filtro);
+        Result EditarFactura(int idFactura, int nuevoClienteId, string nuevoEstado);
+
     }
 
     public interface IProductoService

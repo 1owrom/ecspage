@@ -272,5 +272,46 @@ namespace ecspage
                     "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnEditarFactura_Click_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        // Botón de edición implementado para abrir FormEditarFactura 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // 1) Validar selección
+            if (dgvListarFacturas.CurrentRow == null)
+            {
+                MessageBox.Show("Seleccione una factura para editar.",
+                    "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (!dgvListarFacturas.Columns.Contains("IdFactura"))
+            {
+                MessageBox.Show("No se encuentra la columna IdFactura.",
+                    "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 2) Obtener Id
+            int idFactura = Convert.ToInt32(
+                dgvListarFacturas.CurrentRow.Cells["IdFactura"].Value
+            );
+
+            // 3) Abrir el formulario de edición
+            using (var frm = new FormEditarFactura(idFactura))
+            {
+                frm.StartPosition = FormStartPosition.CenterParent;
+
+                // 4) Si el usuario guardó
+                if (frm.ShowDialog(this) == DialogResult.OK)
+                {
+                    Refrescar(true); // tu método ya listo
+                }
+            }
+        }
     }
 }

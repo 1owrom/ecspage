@@ -46,7 +46,7 @@ namespace ecspage
             Load += FormNuevaFactura_Load;
         }
 
-        // ================================== LOAD ==================================
+        // ================================== LOAD ==================================  //prueba
         private void FormNuevaFactura_Load(object sender, EventArgs e)
         {
             try
@@ -686,6 +686,11 @@ namespace ecspage
         public void RefrescarProductosEnFactura()
         {
             CargarProductos();
+        }
+
+        private void cmbCliente_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
 
         private void gbFactura_Enter(object sender, EventArgs e)
