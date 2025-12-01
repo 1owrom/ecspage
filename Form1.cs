@@ -699,5 +699,10 @@ namespace ecspage
             login.Show();
             this.Close();   // Cierra esta ventana
         }
+
+        private void btnGenerarFactura_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -45,6 +45,7 @@
             label13 = new Label();
             label12 = new Label();
             gbFactura = new GroupBox();
+            button1 = new Button();
             label11 = new Label();
             label14 = new Label();
             btnGenerarFactura = new Button();
@@ -268,6 +269,17 @@
             gbFactura.TabStop = false;
             gbFactura.Enter += gbFactura_Enter;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 9.75F);
+            button1.Location = new Point(29, 598);
+            button1.Name = "button1";
+            button1.Size = new Size(98, 32);
+            button1.TabIndex = 27;
+            button1.Text = "Cerrar Sesión";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // label11
             // 
             label11.AutoSize = true;
@@ -297,6 +309,7 @@
             btnGenerarFactura.TabIndex = 24;
             btnGenerarFactura.Text = "Generar Factura";
             btnGenerarFactura.UseVisualStyleBackColor = true;
+            btnGenerarFactura.Click += btnGenerarFactura_Click_1;
             // 
             // dtFechaEmision
             // 
