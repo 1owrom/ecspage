@@ -67,7 +67,6 @@
             cmbCliente.Name = "cmbCliente";
             cmbCliente.Size = new Size(150, 23);
             cmbCliente.TabIndex = 2;
-            cmbCliente.SelectedIndexChanged += cmbCliente_SelectedIndexChanged;
             // 
             // cmbEstado
             // 

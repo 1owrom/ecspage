@@ -31,7 +31,6 @@ namespace ecspage
             _idFactura = idFactura;
 
             Load += FormEditarFactura_Load;
-            btnGuardar.Click += btnGuardar_Click;
             btnCancelar.Click += btnCancelar_Click;
         }
         //// Configuración completa del formulario de edición carga del estados
@@ -46,7 +45,7 @@ namespace ecspage
                 return;
             }
 
-            // 👉 Cargar clientes
+            // Cargar clientes
             var listaTuplas = _clientes.Listar();
 
             var lista = listaTuplas
@@ -57,25 +56,50 @@ namespace ecspage
             cmbCliente.DisplayMember = "Nombre";
             cmbCliente.ValueMember = "Id";
             cmbCliente.SelectedValue = factura.IdCliente;
+            cmbCliente.DropDownStyle = ComboBoxStyle.DropDownList;
 
-            // 👉 Cargar estados
+
+            // --- Validación: asegurar que factura.IdCliente existe ---
+            bool existe = lista.Any(x => x.Id == factura.IdCliente);
+
+            if (existe)
+            {
+                cmbCliente.SelectedValue = factura.IdCliente;
+            }
+            else
+            {
+                MessageBox.Show(
+                    $"⚠ El cliente con Id = {factura.IdCliente} NO existe en la lista cargada.",
+                    "Cliente no encontrado",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning
+                );
+
+                cmbCliente.SelectedIndex = -1; // Dejar sin seleccionar
+            }
+
+
+
+
+            // Cargar estados
+            cmbEstado.Items.Clear();
             cmbEstado.Items.Add("Pendiente");
             cmbEstado.Items.Add("Pagada");
-            cmbEstado.Items.Add("Anulada");
             cmbEstado.Text = factura.Estado;
+            cmbEstado.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            //  Lógica final para guardar los cambios del estado
-            // 🟦 Validar selección del cliente
+            // Lógica final para guardar los cambios del estado
+            // Validar selección del cliente
             if (cmbCliente.SelectedValue == null)
             {
                 MessageBox.Show("Seleccione un cliente.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // 🟦 Obtener datos del formulario
+            // Obtener datos del formulario
             int nuevoCliente = (int)cmbCliente.SelectedValue;
             string nuevoEstado = cmbEstado.Text.Trim();
 
@@ -85,10 +109,10 @@ namespace ecspage
                 return;
             }
 
-            // 🟩 Ejecutar la edición
+            // Ejecutar la edición
             var r = _facturas.EditarFactura(_idFactura, nuevoCliente, nuevoEstado);
 
-            // 🟦 Mostrar mensaje
+            // Mostrar mensaje
             MessageBox.Show(
                 r.Message,
                 r.Success ? "Éxito" : "Error",
@@ -96,7 +120,7 @@ namespace ecspage
                 r.Success ? MessageBoxIcon.Information : MessageBoxIcon.Error
             );
 
-            // 🟩 Si todo ok, cerrar el formulario
+            // Si todo ok, cerrar el formulario
             if (r.Success)
             {
                 this.DialogResult = DialogResult.OK;
@@ -107,11 +131,6 @@ namespace ecspage
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void cmbCliente_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

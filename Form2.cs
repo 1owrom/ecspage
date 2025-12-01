@@ -134,6 +134,7 @@ namespace ecspage
             cmbFiltrarEstado.Items.Add("Pagada");
             cmbFiltrarEstado.Items.Add("Anulada");
             cmbFiltrarEstado.SelectedIndex = -1; // sin filtro
+            cmbFiltrarEstado.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
         // ========================= Listado / Filtros =========================
@@ -273,13 +274,8 @@ namespace ecspage
             }
         }
 
-        private void btnEditarFactura_Click_Click_1(object sender, EventArgs e)
-        {
-            
-        }
-
         // Botón de edición implementado para abrir FormEditarFactura 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEditarFactura_Click(object sender, EventArgs e)
         {
             // 1) Validar selección
             if (dgvListarFacturas.CurrentRow == null)
