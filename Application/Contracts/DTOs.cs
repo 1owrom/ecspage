@@ -33,6 +33,7 @@ namespace ecspage.Application.Contracts
 
     public class FacturaDTO
     {
+        //Se agrega el campo IdCliente al DTO para permitir edición de factura
         public int Id { get; set; }
         public int IdCliente { get; set; }
         public string Serie { get; set; } = "";
