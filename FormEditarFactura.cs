@@ -34,7 +34,7 @@ namespace ecspage
             btnGuardar.Click += btnGuardar_Click;
             btnCancelar.Click += btnCancelar_Click;
         }
-
+        //// Configuración completa del formulario de edición carga del estados
         private void FormEditarFactura_Load(object sender, EventArgs e)
         {
             var factura = _facturas.ObtenerFactura(_idFactura);
@@ -67,6 +67,7 @@ namespace ecspage
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            //  Lógica final para guardar los cambios del estado
             // 🟦 Validar selección del cliente
             if (cmbCliente.SelectedValue == null)
             {
