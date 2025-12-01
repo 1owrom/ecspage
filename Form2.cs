@@ -277,6 +277,7 @@ namespace ecspage
         {
             
         }
+
         // Botón de edición implementado para abrir FormEditarFactura 
         private void button1_Click(object sender, EventArgs e)
         {
