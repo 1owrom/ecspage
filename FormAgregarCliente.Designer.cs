@@ -54,16 +54,16 @@ namespace ecspage
             // 
             labelTitulo.AutoSize = true;
             labelTitulo.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
-            labelTitulo.Location = new Point(180, 20);
+            labelTitulo.Location = new Point(71, 31);
             labelTitulo.Name = "labelTitulo";
-            labelTitulo.Size = new Size(193, 32);
+            labelTitulo.Size = new Size(228, 32);
             labelTitulo.TabIndex = 0;
-            labelTitulo.Text = "Agregar Cliente";
+            labelTitulo.Text = "AGREGAR CLIENTE";
             // 
             // labelNombre
             // 
             labelNombre.AutoSize = true;
-            labelNombre.Location = new Point(60, 100);
+            labelNombre.Location = new Point(33, 99);
             labelNombre.Name = "labelNombre";
             labelNombre.Size = new Size(54, 15);
             labelNombre.TabIndex = 1;
@@ -71,15 +71,15 @@ namespace ecspage
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(150, 97);
+            txtNombre.Location = new Point(123, 96);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(250, 23);
+            txtNombre.Size = new Size(218, 23);
             txtNombre.TabIndex = 2;
             // 
             // labelRuc
             // 
             labelRuc.AutoSize = true;
-            labelRuc.Location = new Point(60, 150);
+            labelRuc.Location = new Point(33, 149);
             labelRuc.Name = "labelRuc";
             labelRuc.Size = new Size(33, 15);
             labelRuc.TabIndex = 3;
@@ -87,15 +87,15 @@ namespace ecspage
             // 
             // txtRuc
             // 
-            txtRuc.Location = new Point(150, 147);
+            txtRuc.Location = new Point(123, 146);
             txtRuc.Name = "txtRuc";
-            txtRuc.Size = new Size(250, 23);
+            txtRuc.Size = new Size(218, 23);
             txtRuc.TabIndex = 4;
             // 
             // labelEmail
             // 
             labelEmail.AutoSize = true;
-            labelEmail.Location = new Point(60, 200);
+            labelEmail.Location = new Point(33, 199);
             labelEmail.Name = "labelEmail";
             labelEmail.Size = new Size(39, 15);
             labelEmail.TabIndex = 5;
@@ -103,15 +103,15 @@ namespace ecspage
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(150, 197);
+            txtEmail.Location = new Point(123, 196);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(250, 23);
+            txtEmail.Size = new Size(218, 23);
             txtEmail.TabIndex = 6;
             // 
             // labelDireccion
             // 
             labelDireccion.AutoSize = true;
-            labelDireccion.Location = new Point(60, 250);
+            labelDireccion.Location = new Point(33, 249);
             labelDireccion.Name = "labelDireccion";
             labelDireccion.Size = new Size(60, 15);
             labelDireccion.TabIndex = 7;
@@ -119,14 +119,14 @@ namespace ecspage
             // 
             // txtDireccion
             // 
-            txtDireccion.Location = new Point(150, 247);
+            txtDireccion.Location = new Point(123, 246);
             txtDireccion.Name = "txtDireccion";
-            txtDireccion.Size = new Size(250, 23);
+            txtDireccion.Size = new Size(218, 23);
             txtDireccion.TabIndex = 8;
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(220, 320);
+            btnGuardar.Location = new Point(110, 318);
             btnGuardar.Name = "btnGuardar";
             btnGuardar.Size = new Size(150, 35);
             btnGuardar.TabIndex = 9;
@@ -138,7 +138,7 @@ namespace ecspage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(600, 400);
+            ClientSize = new Size(379, 400);
             Controls.Add(labelTitulo);
             Controls.Add(labelNombre);
             Controls.Add(txtNombre);
