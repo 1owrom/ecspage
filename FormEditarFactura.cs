@@ -11,8 +11,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Ajustes inciales de fomulario de edicion de factura
+
 namespace ecspage
 {
+   
     public partial class FormEditarFactura : Form
     {
         private readonly IFacturaService _facturas;
